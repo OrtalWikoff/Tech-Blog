@@ -14,10 +14,13 @@ const PORT = process.env.PORT || 3001;
 
 //  session
 const sess = {
-  secret: 'supersecretsessionsecrettext',
-  cookie: { maxAge: 180000},
+  secret: 'Super secret secret',
+  //stored in milliseconds (86400===1 day)
+  cookie: 
+  { maxAge: 180000},
   resave: false,
   saveUninitialized: true,
+  //sets up session store
   store: new SequelizeStore({
     db: sequelize
   })
