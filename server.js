@@ -20,7 +20,7 @@ const sess = {
   { maxAge: 180000},
   resave: false,
   saveUninitialized: true,
-  //sets up session store
+  //sets up session
   store: new SequelizeStore({
     db: sequelize
   })
