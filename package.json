@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "In this app you will be able to read and write  about technical concepts, recent advancements, and new technologies.",
   "main": "server.js",
+  "engines": {
+    "node": "12.11.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
