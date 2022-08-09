@@ -4,7 +4,10 @@ Writing about tech can be just as important as making it. I spent plenty of time
 
 I built a CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts as well. 
 
-Here is the URL of my application:   
+Here is the URL of my application:
+
+https://tech-blog-ortal.herokuapp.com/
+
 
 Here is the URL of the GitHub repository: 
 
