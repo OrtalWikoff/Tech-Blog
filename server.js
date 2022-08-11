@@ -33,6 +33,8 @@ const sess = {
   
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
+  
+  //connected css and js for handlebars 
   app.use(express.static(path.join(__dirname, 'public')));
   
   app.use(session(sess));
